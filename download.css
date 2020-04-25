@@ -1,0 +1,36 @@
+.box{  
+    height: auto;
+    text-align:center; 
+    background: #808080; 
+    top: 0;
+    border-radius: 18px;
+    z-index: -2;
+}  
+  
+.box ui{
+
+}
+
+.box li{
+    list-style-type: none;
+    display: inline;
+    font-size: 28px;
+    margin-right:2%;
+    z-index: -2;
+}
+
+.box li a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   z-index: -2;
+}
+
+.box li a:hover{
+    background-color: white;
+    border-radius: 7px;
+    color: #808080;
+}
+
+body{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
